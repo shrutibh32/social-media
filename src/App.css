@@ -1,0 +1,26 @@
+.app-container{
+  display: flex;
+}
+.container{
+  width: 100%;
+}
+.sidebar{
+  min-height: 800px;
+}
+.post-card{
+      margin: 20px 50px;
+      width: 30rem;
+}
+.hastag{
+  margin:0px 3px;
+}
+.reactions{
+  width: 100%;
+  margin-top: 10px;
+}
+.deletebutton{
+  cursor: pointer;}
+.create-post{
+  width: 50%;
+  margin: 40px;
+}
