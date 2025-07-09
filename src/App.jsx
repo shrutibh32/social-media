@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import Header from "./Components/header";
 import Footer from "./Components/Footer";
 import Sidebar from "./Components/Sidebar";
@@ -10,6 +10,8 @@ import PostListProvider from "./store/post-context";
 export default function App() {
 
 const [selectedTab,setSelectedTab]=useState("Home");   
+
+
 
   return (
     <PostListProvider>
