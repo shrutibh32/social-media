@@ -3,6 +3,7 @@ import Post from "./Post";
 import { PostList as PostListContext } from "../store/post-context";
 import WelcomeMessage from "./WelcomeMessage";
 import LoadingSpinner from "./LoadingSpinner";
+
 export default function PostList() {
 
  const { postList,addInitialPosts } = useContext(PostListContext);
